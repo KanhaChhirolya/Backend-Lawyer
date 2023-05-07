@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
     res.send("Base Endpoint Of API")
 })
 
+
 app.use("/user", userRouter);
 app.use('/lawyer', lawyerRouter)
 app.use('/admin', AdminRouter)
